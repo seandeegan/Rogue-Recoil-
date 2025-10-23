@@ -1,0 +1,52 @@
+{
+  "UI": false,
+  "Volume": "3",
+  "Pitch": "0.875 1.1",
+  "Decibels": 70,
+  "SelectionMode": "Random",
+  "Sounds": [
+    "gunshot sounds/edited sounds/pistol.vsnd"
+  ],
+  "Occlusion": true,
+  "AirAbsorption": true,
+  "Transmission": true,
+  "OcclusionRadius": 64,
+  "DistanceAttenuation": true,
+  "Distance": 15000,
+  "Falloff": [
+    {
+      "x": 0,
+      "y": 1,
+      "in": 0,
+      "out": -1.8,
+      "mode": "Mirrored"
+    },
+    {
+      "x": 0.05,
+      "y": 0.22,
+      "in": 3.5,
+      "out": -3.5,
+      "mode": "Mirrored"
+    },
+    {
+      "x": 0.2,
+      "y": 0.04,
+      "in": 0.16,
+      "out": -0.16,
+      "mode": "Mirrored"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "in": 0,
+      "out": 0,
+      "mode": "Mirrored"
+    }
+  ],
+  "DefaultMixer": {
+    "Name": "game",
+    "Id": "50010671-f3a6-4abd-92c6-a1d6130031e7"
+  },
+  "__references": [],
+  "__version": 1
+}

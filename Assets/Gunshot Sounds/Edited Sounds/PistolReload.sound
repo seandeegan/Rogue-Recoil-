@@ -1,0 +1,52 @@
+{
+  "UI": false,
+  "Volume": "6",
+  "Pitch": "0.9 1.1",
+  "Decibels": 70,
+  "SelectionMode": "Random",
+  "Sounds": [
+    "gunshot sounds/edited sounds/467182__sophia_c__fast-pistol-reload-bersa-bp9cc-9x19.vsnd"
+  ],
+  "Occlusion": true,
+  "AirAbsorption": true,
+  "Transmission": true,
+  "OcclusionRadius": 64,
+  "DistanceAttenuation": true,
+  "Distance": 4515,
+  "Falloff": [
+    {
+      "x": 0,
+      "y": 1,
+      "in": 0,
+      "out": -1.8,
+      "mode": "Mirrored"
+    },
+    {
+      "x": 0.05,
+      "y": 0.22,
+      "in": 3.5,
+      "out": -3.5,
+      "mode": "Mirrored"
+    },
+    {
+      "x": 0.2,
+      "y": 0.04,
+      "in": 0.16,
+      "out": -0.16,
+      "mode": "Mirrored"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "in": 0,
+      "out": 0,
+      "mode": "Mirrored"
+    }
+  ],
+  "DefaultMixer": {
+    "Name": "game",
+    "Id": "d2d0c8f2-8b73-4c26-87ce-e8442eb3c81f"
+  },
+  "__references": [],
+  "__version": 1
+}

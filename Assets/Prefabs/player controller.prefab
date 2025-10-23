@@ -269,7 +269,7 @@
         ],
         "Children": [
           {
-            "__guid": "9612cf50-3c1a-4304-8574-a9f5e37fd2bd",
+            "__guid": "f0f7be31-7592-4f47-95ba-c38d6d04f99d",
             "__version": 1,
             "Flags": 0,
             "Name": "Clothing - sneakers",
@@ -285,7 +285,7 @@
             "Components": [
               {
                 "__type": "Sandbox.SkinnedModelRenderer",
-                "__guid": "1a0fa9e1-891d-49dd-a77d-e6fad5a51fce",
+                "__guid": "7f46136b-e047-4267-9315-313303fb04ee",
                 "__enabled": true,
                 "AnimationGraph": null,
                 "BodyGroups": 18446744073709551615,
@@ -336,7 +336,7 @@
             "Children": []
           },
           {
-            "__guid": "5e9d139c-3d33-4d0e-8762-6ccd47c0a3b6",
+            "__guid": "ed76e518-5544-40b3-bd3e-2db18f6e79d2",
             "__version": 1,
             "Flags": 0,
             "Name": "Clothing - bomber_jacket",
@@ -352,7 +352,7 @@
             "Components": [
               {
                 "__type": "Sandbox.SkinnedModelRenderer",
-                "__guid": "b47ba78c-28d3-4667-8f0b-efcbbbc50c94",
+                "__guid": "1571965c-36eb-41ab-b5ff-558e4ab5ea8e",
                 "__enabled": true,
                 "AnimationGraph": null,
                 "BodyGroups": 18446744073709551615,
@@ -403,7 +403,7 @@
             "Children": []
           },
           {
-            "__guid": "00be0676-3b1c-46b3-a778-a9bbc41c6f85",
+            "__guid": "6d8a9a6f-698c-466b-b24b-edeb2cd93547",
             "__version": 1,
             "Flags": 0,
             "Name": "Clothing - hair_shortscruffy_brown",
@@ -419,7 +419,7 @@
             "Components": [
               {
                 "__type": "Sandbox.SkinnedModelRenderer",
-                "__guid": "c70375ee-0c8e-4090-9c4d-7d561aac9f4a",
+                "__guid": "437935a7-7281-43e0-8f90-0565268abf70",
                 "__enabled": true,
                 "AnimationGraph": null,
                 "BodyGroups": 18446744073709551615,
@@ -470,7 +470,7 @@
             "Children": []
           },
           {
-            "__guid": "15ea5290-015c-468f-8937-d2386a16cf23",
+            "__guid": "8fea3145-15e7-4de7-bc20-d171284eb5b4",
             "__version": 1,
             "Flags": 0,
             "Name": "Clothing - hoodie_black",
@@ -486,7 +486,7 @@
             "Components": [
               {
                 "__type": "Sandbox.SkinnedModelRenderer",
-                "__guid": "fee13050-9779-4082-aa7e-47c04e91983a",
+                "__guid": "26b26470-5212-438b-8935-57b65f8e8e5c",
                 "__enabled": true,
                 "AnimationGraph": null,
                 "BodyGroups": 18446744073709551615,
@@ -537,7 +537,7 @@
             "Children": []
           },
           {
-            "__guid": "12581745-ef82-4609-8fde-b633a3794a89",
+            "__guid": "dcc49288-07f6-41b5-8786-716e72f93edf",
             "__version": 1,
             "Flags": 0,
             "Name": "Clothing - jeans_black",
@@ -553,7 +553,7 @@
             "Components": [
               {
                 "__type": "Sandbox.SkinnedModelRenderer",
-                "__guid": "90b637b2-cd13-4588-8bfe-324f1f40f7ea",
+                "__guid": "fe4eac39-b5df-4067-b849-123151d049de",
                 "__enabled": true,
                 "AnimationGraph": null,
                 "BodyGroups": 18446744073709551615,
@@ -602,6 +602,263 @@
               }
             ],
             "Children": []
+          }
+        ]
+      },
+      {
+        "__guid": "db4ea5db-91bf-4f78-a276-d413b8eabc55",
+        "__version": 1,
+        "Flags": 0,
+        "Name": "v_first_person_arms_human",
+        "Position": "21.14143,0,64",
+        "Rotation": "0,0,0,1",
+        "Scale": "1,1,1",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkInterpolation": true,
+        "NetworkOrphaned": 0,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "Sandbox.SkinnedModelRenderer",
+            "__guid": "77dc4c11-fcb0-4a7e-b34e-517e8a5e3ba0",
+            "__enabled": true,
+            "AnimationGraph": null,
+            "BodyGroups": 21,
+            "BoneMergeTarget": {
+              "_type": "component",
+              "component_id": "20652446-e3db-4b1b-a0be-a80b805aa547",
+              "go": "1e8567d6-d258-452f-be8f-4b83549d2a4f",
+              "component_type": "SkinnedModelRenderer"
+            },
+            "CreateAttachments": false,
+            "CreateBoneObjects": false,
+            "LodOverride": null,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Materials": null,
+            "Model": "models/first_person/v_first_person_arms_human.vmdl",
+            "Morphs": {},
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Parameters": {
+              "bools": {},
+              "ints": {},
+              "floats": {},
+              "vectors": {},
+              "rotations": {}
+            },
+            "PlaybackRate": 1,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Sequence": {
+              "Name": null,
+              "Looping": true,
+              "Blending": false
+            },
+            "Tint": "1,1,1,1",
+            "UseAnimGraph": true
+          },
+          {
+            "__type": "FPArmsFollow",
+            "__guid": "d0c08b5d-7132-4980-b5ca-39897d77e958",
+            "__enabled": true,
+            "FollowSpeed": 20,
+            "LocalOffset": "0,0,0",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "PlayerController": {
+              "_type": "component",
+              "component_id": "a3c7ed2f-b706-43e5-939e-62328d3754ce",
+              "go": "645f4a57-bf3e-4ba2-98cd-e8de233ad5d3",
+              "component_type": "PlayerController"
+            }
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "1e8567d6-d258-452f-be8f-4b83549d2a4f",
+            "__version": 1,
+            "Flags": 0,
+            "Name": "v_usp",
+            "Position": "0,0,0",
+            "Rotation": "0,0,0,1",
+            "Scale": "1,1,1",
+            "Tags": "",
+            "Enabled": true,
+            "NetworkMode": 2,
+            "NetworkInterpolation": true,
+            "NetworkOrphaned": 0,
+            "OwnerTransfer": 1,
+            "Components": [
+              {
+                "__type": "Sandbox.Prop",
+                "__guid": "1677b672-222e-419c-b7cf-77836745b57a",
+                "__enabled": true,
+                "BodyGroups": 147,
+                "Health": 0,
+                "IsStatic": false,
+                "MaterialGroup": null,
+                "Model": "models/weapons/sbox_pistol_usp/v_usp.vmdl",
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "OnPropBreak": null,
+                "OnPropTakeDamage": null,
+                "StartAsleep": false,
+                "Tint": "1,1,1,1"
+              },
+              {
+                "__type": "Sandbox.SkinnedModelRenderer",
+                "__guid": "20652446-e3db-4b1b-a0be-a80b805aa547",
+                "__enabled": true,
+                "AnimationGraph": null,
+                "BodyGroups": 147,
+                "BoneMergeTarget": null,
+                "CreateAttachments": false,
+                "CreateBoneObjects": false,
+                "LodOverride": null,
+                "MaterialGroup": null,
+                "MaterialOverride": null,
+                "Materials": null,
+                "Model": "models/weapons/sbox_pistol_usp/v_usp.vmdl",
+                "Morphs": {},
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "Parameters": {
+                  "bools": {
+                    "b_twohanded": true
+                  },
+                  "ints": {},
+                  "floats": {},
+                  "vectors": {},
+                  "rotations": {}
+                },
+                "PlaybackRate": 1,
+                "RenderOptions": {
+                  "GameLayer": true,
+                  "OverlayLayer": false,
+                  "BloomLayer": false,
+                  "AfterUILayer": false
+                },
+                "RenderType": "On",
+                "Sequence": {
+                  "Name": null,
+                  "Looping": true,
+                  "Blending": false
+                },
+                "Tint": "1,1,1,1",
+                "UseAnimGraph": true
+              },
+              {
+                "__type": "Sandbox.ModelCollider",
+                "__guid": "bdf003d9-da4d-4b89-8ed1-3b7845a2c30b",
+                "__enabled": true,
+                "Elasticity": null,
+                "Friction": null,
+                "IsTrigger": false,
+                "Model": "models/weapons/sbox_pistol_usp/v_usp.vmdl",
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "OnObjectTriggerEnter": null,
+                "OnObjectTriggerExit": null,
+                "OnTriggerEnter": null,
+                "OnTriggerExit": null,
+                "RollingResistance": null,
+                "Static": false,
+                "Surface": null,
+                "SurfaceVelocity": "0,0,0"
+              },
+              {
+                "__type": "Sandbox.Rigidbody",
+                "__guid": "9d6e2f25-90d7-405a-98e5-2f4812c05070",
+                "__enabled": false,
+                "AngularDamping": 0,
+                "Gravity": true,
+                "LinearDamping": 0,
+                "Locking": {
+                  "X": false,
+                  "Y": false,
+                  "Z": false,
+                  "Pitch": false,
+                  "Yaw": false,
+                  "Roll": false
+                },
+                "MassCenterOverride": "0,0,0",
+                "MassOverride": 0,
+                "MotionEnabled": true,
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "OverrideMassCenter": false,
+                "RigidbodyFlags": 0,
+                "StartAsleep": false
+              }
+            ],
+            "Children": [
+              {
+                "__guid": "f19a4fa8-3bc1-4bde-840a-b7e2e7213b93",
+                "__version": 1,
+                "Flags": 0,
+                "Name": "muzzle",
+                "Position": "3.848412,0.0000004676039,4.945133",
+                "Rotation": "0,0,0,1",
+                "Scale": "1,1,1",
+                "Tags": "",
+                "Enabled": true,
+                "NetworkMode": 2,
+                "NetworkInterpolation": true,
+                "NetworkOrphaned": 0,
+                "OwnerTransfer": 1,
+                "Components": [],
+                "Children": []
+              },
+              {
+                "__guid": "ab29f082-7bf5-4249-b24d-5f1d3d243693",
+                "__version": 1,
+                "Flags": 0,
+                "Name": "eject",
+                "Position": "0.2193301,-0.1475519,5.091545",
+                "Rotation": "0.0000001053671,-0.7071066,0.00000002107342,0.7071068",
+                "Scale": "1,1,1",
+                "Tags": "",
+                "Enabled": true,
+                "NetworkMode": 2,
+                "NetworkInterpolation": true,
+                "NetworkOrphaned": 0,
+                "OwnerTransfer": 1,
+                "Components": [],
+                "Children": []
+              }
+            ]
           }
         ]
       },
@@ -671,73 +928,6 @@
           }
         ],
         "Children": []
-      },
-      {
-        "__guid": "db4ea5db-91bf-4f78-a276-d413b8eabc55",
-        "__version": 1,
-        "Flags": 0,
-        "Name": "v_first_person_arms_human",
-        "Position": "0,0,65.33306",
-        "Rotation": "0,0,0,1",
-        "Scale": "1,1,1",
-        "Tags": "",
-        "Enabled": true,
-        "NetworkMode": 2,
-        "NetworkInterpolation": true,
-        "NetworkOrphaned": 0,
-        "OwnerTransfer": 1,
-        "Components": [
-          {
-            "__type": "Sandbox.SkinnedModelRenderer",
-            "__guid": "77dc4c11-fcb0-4a7e-b34e-517e8a5e3ba0",
-            "__enabled": true,
-            "AnimationGraph": null,
-            "BodyGroups": 21,
-            "BoneMergeTarget": {
-              "_type": "component",
-              "component_id": "f57a93c7-042e-4aea-a675-53b047253f3d",
-              "go": "018c9165-29f7-402d-b183-b24cfc7c7bbd",
-              "component_type": "SkinnedModelRenderer"
-            },
-            "CreateAttachments": false,
-            "CreateBoneObjects": false,
-            "LodOverride": null,
-            "MaterialGroup": null,
-            "MaterialOverride": null,
-            "Materials": null,
-            "Model": "models/first_person/v_first_person_arms_human.vmdl",
-            "Morphs": {},
-            "OnComponentDestroy": null,
-            "OnComponentDisabled": null,
-            "OnComponentEnabled": null,
-            "OnComponentFixedUpdate": null,
-            "OnComponentStart": null,
-            "OnComponentUpdate": null,
-            "Parameters": {
-              "bools": {},
-              "ints": {},
-              "floats": {},
-              "vectors": {},
-              "rotations": {}
-            },
-            "PlaybackRate": 1,
-            "RenderOptions": {
-              "GameLayer": true,
-              "OverlayLayer": false,
-              "BloomLayer": false,
-              "AfterUILayer": false
-            },
-            "RenderType": "On",
-            "Sequence": {
-              "Name": null,
-              "Looping": true,
-              "Blending": false
-            },
-            "Tint": "1,1,1,1",
-            "UseAnimGraph": true
-          }
-        ],
-        "Children": []
       }
     ],
     "__properties": {
@@ -766,7 +956,8 @@
   "MenuIcon": null,
   "DontBreakAsTemplate": false,
   "__references": [
-    "facepunch.v_first_person_arms_human#122024"
+    "facepunch.v_first_person_arms_human#122024",
+    "facepunch.v_usp#123291"
   ],
   "__version": 2
 }
